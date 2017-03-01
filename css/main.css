@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	background-color:#666;
+}
+body{
+	background-color:#eae7e0;
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	line-height:18px;
+	
+	
+}
+
+	
+#full_content {
+	height: auto;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float:left;
+}
+#header{
+	float:left;
+	width:1000px;
+	height:120px;
+	background-image:url(../images/top_banner.png);
+	background-repeat:no-repeat;
+}#header_right {
+	height: 40px;
+	width: 300px;
+	margin-top: 36px;
+	margin-right: 40px;
+	background-color: #1b0905;
+	border-radius:15px;
+	float: right;
+	color:#FFF;
+	border:none;
+}
+#header_right input[type='text']{
+	background:#1b0905;
+	height:40px;
+	width:300px;
+	border-radius:15px;
+	/*text-align:center;*/
+	font-size:18px;
+	border:none;
+	color:#FFF;
+}
+#header_left {
+	height: 80px;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 30px;
+	color:#FFF;
+	font-family:"Calisto MT";
+	font-size:18px;
+	float:left;
+	/*background-color: #0CC;*/
+	
+}
+#header_left span {
+	font-size:16px;
+}
+#header_right img{
+	float:right;
+	position:absolute;
+	top:40px;
+	margin-left:250px;
+}
+.clear{
+	clear:both;
+}
+#nav{
+	width:1000px;
+	height:42px;
+	/*background-color:#391308;*/
+	background-image:url(../images/li_bg.png);
+	background-repeat:repeat;
+	border-bottom:2px solid #8e635e;
+	
+}
+#content {
+	float: left;
+	height: 325px;
+	width: 1000px;
+	background-color:#eae7e0;
+}
+
+#nav ul{
+	margin:0;
+	padding:0;
+}
+#nav li{
+	list-style-type:none;
+	width:163px;
+	height:42px;
+	display:block;
+	float:left;
+	line-height:42px;
+	
+	text-align:center;
+}
+#nav a{
+	text-decoration:none;
+	color:#FFF;
+}
+#banner {
+	float: left;
+	height: 270px;
+	width: 928px;
+	background-color:#eae7e0;
+	margin-left:31px;
+	margin-top:25px;
+	background-image:url(../images/banner.png);
+	background-repeat:no-repeat;
+	border:5px solid #FFF;
+}
+#banner_text{
+	width:667px;
+	height:54px;
+	float:right;
+	font-family:"Century bold";
+	font-size:28px;
+	text-align:right;
+	margin:17px 45px 0 0;
+	
+}
+#banner_content_text{
+	width:435px;
+	height:145px;
+	background-color:#320b01;
+	color:#FFF;
+	font-family:"Times New Roman";
+	font-size:16px;
+	margin-left:58px;
+	padding:20px 20px 0px 20px;
+	text-align:justify;
+}
+#banner_content_text a{
+	color:#cc9933;
+	text-decoration:none;
+}
+
+#banner_content_text a:hover{
+	color:white;
+	text-decoration:none;
+}
+#footer{
+
+	height: 292px;
+	margin:0;
+	width:1000px;
+	background-color:#eae7e0;
+	
+	
+}
+
+
+#footer1{
+	height:230px;
+	width:295px;
+	background-color:#ffffff;
+	margin:32px 18px 22px 31px;
+	float:left;
+}
+#footer11{
+	height:230px;
+	width:295px;
+	
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#footer22{
+	height:230px;
+	width:295px;
+	
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#footer33{
+	height:230px;
+	width:295px;
+	
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#footer2{
+	height:230px;
+	width:295px;
+	background-color:#ffffff;
+	margin:32px 9px 22px 9px;
+	float:left;
+}
+
+#footer3{
+	height:230px;
+	width:295px;
+	background-color:#ffffff;
+	margin:32px 18px 22px 18px;
+	float:left
+}	
+	
+	
+	
+#foot1_img	{
+	   height:140px;
+		width:269px;
+		background-image:url(../images/second_1.png);
+		background-repeat:no-repeat;
+		margin:31px 14px 55px 14px;
+		
+}
+
+#foot2_img	{
+	   height:140px;
+		width:269px;
+		background-image:url(../images/second_2.png);
+		background-repeat:no-repeat;
+		margin:31px 14px 55px 14px;
+		
+}
+	    
+#foot3_img	{
+	   height:140px;
+		width:269px;
+		background-image:url(../images/second_3.png);
+		background-repeat:no-repeat;
+		margin:31px 14px 55px 14px;
+		
+}
+	    		
+.spanf{
+	        font-family:Iskoola Pota;
+			color:#827c7c;
+			font-weight:500;
+			font-size:13pt;
+			padding-left:14px;
+			line-height:34px;
+			
+}
+p    {			
+       
+	   padding-left:14px;
+	   padding-top:125px;
+	   font-family:Iskoola Pota;
+	   font-size:12px;
+	   color:0b0b0a;
+	   font-weight:400
+	   ;
+
+}
+
+a     {color:#ef794e;
+text-decoration:none;
+}
+
+a:hover { color:#320b01;
+}
+
+
+ul:hover{ color:#320b01;
+}
+

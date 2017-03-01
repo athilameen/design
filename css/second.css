@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+#nav{
+	width:1000px;
+	height:42px;
+	/*background-color:#391308;*/
+	background-image:url(../images/li_bg.png);
+	background-repeat:repeat;
+}
+
